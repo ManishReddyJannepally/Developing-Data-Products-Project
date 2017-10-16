@@ -1,0 +1,42 @@
+---
+title: "Developing Data Product - BMI Calculator App"
+author: "Manish Reddy Jannepally"
+date: "October 16, 2017"
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Body Mass Index (BMI) Calculator
+
+- This presentation is about my BMI calculator shiny app which is deployed on [Shinyapps.io](https://shinyapps.io). 
+
+- Application is very simple with a good UI and accurate results.
+
+- The Shiny Application for BMI Calculation is at [BMI Calculator](https://jannepallymanishreddy.shinyapps.io/body_mass_index_calsculator/)
+
+## What is BMI??
+
+- The body mass index (BMI) or Quetelet index is a value derived from the mass (weight) and height of an individual. 
+
+- The BMI is an attempt to quantify the amount of tissue mass (muscle, fat, and bone) in an individual, and then categorize that person as underweight, normal weight, overweight or obese based on that value.
+
+## How it works??
+
+
+- The BMI is defined as the body mass divided by the square of the body height, and is universally expressed in units of kg/m2,resulting from mass in kilograms and height in metres.
+
+```{r cars, echo = TRUE,eval=FALSE}
+user_bmi = round(input$Weight/(input$Height/100)^2,1)
+```
+
+## Join me to improve and develop
+
+- The Source code for the app is available at
+
+<https://github.com/ManishReddyJannepally/Developing-Data-Products-Project>
+
+- This app will be maintained by me. If any suggestions, here is my email <jannepallymanishreddy@gmail.com>
+
